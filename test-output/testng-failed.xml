@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.financeDomain.adfdatafinance.Scripts.TestCase2">
+        <methods>
+          <include name="closeApp"/>
+          <include name="testcase2"/>
+          <include name="openApp"/>
+          <include name="configAS"/>
+          <include name="configBS"/>
+        </methods>
+      </class> <!-- com.financeDomain.adfdatafinance.Scripts.TestCase2 -->
+      <class name="com.financeDomain.adfdatafinance.Scripts.TestCase5">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="configAS"/>
+          <include name="configBS"/>
+          <include name="testcase5"/>
+        </methods>
+      </class> <!-- com.financeDomain.adfdatafinance.Scripts.TestCase5 -->
+      <class name="com.financeDomain.adfdatafinance.Scripts.TestCase1">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="configAS"/>
+          <include name="configBS"/>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- com.financeDomain.adfdatafinance.Scripts.TestCase1 -->
+      <class name="com.financeDomain.adfdatafinance.Scripts.TestCase4">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="configAS"/>
+          <include name="configBS"/>
+          <include name="testcase4"/>
+        </methods>
+      </class> <!-- com.financeDomain.adfdatafinance.Scripts.TestCase4 -->
+      <class name="com.financeDomain.adfdatafinance.Scripts.TestCase3">
+        <methods>
+          <include name="closeApp"/>
+          <include name="testcase3"/>
+          <include name="openApp"/>
+          <include name="configAS"/>
+          <include name="configBS"/>
+        </methods>
+      </class> <!-- com.financeDomain.adfdatafinance.Scripts.TestCase3 -->
+      <class name="com.financeDomain.adfdatafinance.Scripts.TestCase6">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="configAS"/>
+          <include name="configBS"/>
+          <include name="testcase6"/>
+        </methods>
+      </class> <!-- com.financeDomain.adfdatafinance.Scripts.TestCase6 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
